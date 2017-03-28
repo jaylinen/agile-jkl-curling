@@ -1,5 +1,7 @@
 # Gofore curling
 
+Hagaton 2017
+
 ---
 
 ## Lähtökohta
@@ -7,6 +9,12 @@
 <!-- .slide: data-state="primary-theme" -->
 
 - huonoja ideoita
+
+Notes:
+
+- tiimi syntyi oluen ääressä
+- tiimi ei ollut työskennellyt aiemmin yhdessä
+- Riston curling-idea
 
 ---
 
@@ -17,8 +25,13 @@
 - mikropalveluarkkitehtuuri
 - Docker
 - tilaton
-- websocket
 - curl
+
+Notes:
+
+- mikropalveluarkkitehtuuri, jotta jokainen tiimin jäsen voi työskennellä itsenäisesti
+- vain yksi oli käyttänyt dockeria aiemmin
+- kaikki tekevät jotain uutta
 
 ---
 
@@ -35,9 +48,13 @@
 - Nginx
 - Vue.js
 
+Notes:
+
+- Haluttiin yhdistää kaikkea uutta teknologiaa
+
 ---
 
-## Hackathon
+## Hagathon
 
 <!-- .slide: data-state="primary-theme" -->
 
@@ -46,6 +63,10 @@
 - omat mikropalvelut
 - lopputulos demottiin kolmella koneella
 - viimeistelyyn viikkoja
+
+Notes:
+
+- Sovittiin, että ennen lähtöä ei koodata
 
 ---
 
@@ -57,3 +78,8 @@
 
 - isomofrinen fysiikkaengine
 - load balancerit yhteyksissä
+
+Notes:
+
+- traefik api gatewayna, tarjoaa load balancerit
+- enginen toiminta
