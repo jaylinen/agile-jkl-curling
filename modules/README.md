@@ -8,12 +8,16 @@ Hagaton 2017
 
 <!-- .slide: data-state="primary-theme" -->
 
+- Hagaton-kiima
+- tiimi ei ollut työskennellyt aiemmin yhdessä
+- jotain turhaa uusilla teknologioilla
 - huonoja ideoita
 
 Notes:
 
 - tiimi syntyi oluen ääressä
-- tiimi ei ollut työskennellyt aiemmin yhdessä
+- Devaajat ei ole tehneet pelejä
+- Tanssimattoideoita (DDR & autopeli)
 - Riston curling-idea
 
 ---
@@ -25,11 +29,12 @@ Notes:
 - mikropalveluarkkitehtuuri
 - Docker
 - tilaton
-- curl
+- ohjaus komentoriviltä
+- hieno käyttöliittymä
 
 Notes:
 
-- mikropalveluarkkitehtuuri, jotta jokainen tiimin jäsen voi työskennellä itsenäisesti
+- mikropalveluarkkitehtuuri kaikki voivat työskennellä itsenäisesti
 - vain yksi oli käyttänyt dockeria aiemmin
 - kaikki tekevät jotain uutta
 
@@ -42,15 +47,17 @@ Notes:
 - Docker
 - Python
 - Node.js
-- .Net
+- .Net Core
 - Træfɪk
 - Redis
 - Nginx
 - Vue.js
+- Matter.js
 
 Notes:
 
 - Haluttiin yhdistää kaikkea uutta teknologiaa
+- GO:takin kokeiltiin
 
 ---
 
@@ -58,15 +65,32 @@ Notes:
 
 <!-- .slide: data-state="primary-theme" -->
 
-- ensimmäiset commitit Tikkurilassa
 - määriteltiin rajapinnat
 - omat mikropalvelut
+- ensimmäiset commitit ennen Tikkurilaa
 - lopputulos demottiin kolmella koneella
-- viimeistelyyn viikkoja
 
 Notes:
 
 - Sovittiin, että ennen lähtöä ei koodata
+- Koodaus intensiivistä
+- Opintomatka saunan pukuhuoneeseen Gambinan kanssa
+
+---
+
+## Post-hagaton
+
+<!-- .slide: data-state="primary-theme" -->
+
+- viikossa palvelut toiminnassa
+- viimeistelyyn kuukausi
+- tuotantoympäristöksi AWS EC2
+- tuotantoasennukset Ansiblella
+
+Notes:
+
+- Jo sunnuntaina jatkettiin
+- AWS-tunkkaajat usein ensikertalaisia
 
 ---
 
@@ -76,10 +100,11 @@ Notes:
 
 ![Arkkitehtuuri](../assets/images/png/arkkitehtuuri.png)
 
-- isomofrinen fysiikkaengine
-- load balancerit yhteyksissä
-
 Notes:
 
+- arkkitehtuuri tehty hiukan perse edellä puuhun mentaliteetilla
+- isomorfinen fysiikkaengine
+- load balancerit yhteyksissä
 - traefik api gatewayna, tarjoaa load balancerit
-- enginen toiminta
+- enginen toiminta ja väärinkäyttö
+- pienin mikropalvelu noin 16 riviä
